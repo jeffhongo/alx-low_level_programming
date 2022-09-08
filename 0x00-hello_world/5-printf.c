@@ -6,6 +6,6 @@
 int main (void)
 { 
 printf("with proper grammar, nut the outcome is a price of art,\n");
-return(0)
+return(0);
 }
 
