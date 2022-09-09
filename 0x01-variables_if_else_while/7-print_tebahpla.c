@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - first line 
- *
+ * main - first line of code:wq
  * Description: Print lowercase alphabet backwards
  * Return: 0
  */
