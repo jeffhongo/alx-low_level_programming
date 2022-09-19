@@ -1,18 +1,13 @@
 #include "main.h"
-#include "stddef.h"
 
 /**
- * _strlen - Returns the length of a string.
- * @str: The string to get the length of.
- *
- * Return: The length of @str.
+ * swap_int - this functoin change the initial.
+ * @a: this is a parameter to change.
+ * @b: this is the another parameter to change.
  */
-size_t print_strlen(const char *str)
+void swap_int(int *a, int *b)
 {
-	size_t length = 0;
-
-	while (*str++)
-		length++;
-
-	return (length);
+	int t = *a;
+	*a = *b;
+	*b = t;
 }
